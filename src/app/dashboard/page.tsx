@@ -17,9 +17,9 @@ export default async function Dashboard(){
         <Container>
             <main className='mt-9 mb-2'>
                 <div className='flex items-center justify-between '>
-                    <h1 className='text-3xl font-bold'>Llamadas</h1>
+                    <h1 className='text-3xl font-bold'>Tickets</h1>
                     <Link href='/dashboard/new' className='bg-blue-500 px-4 py-1 rounded text-white'>
-                        abrir llamada
+                        crear ticket
                     </Link>
                 </div>
 
