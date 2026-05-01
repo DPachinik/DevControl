@@ -22,10 +22,10 @@ export default async function NewCustomer(){
                     <Link href='/dashboard/customer' className="bg-gray-900 px-4 py-1 text-white rounded ">
                         regresar
                     </Link>
-                     <h1 className="text-3xl font-bold ">Nuevo cliente</h1>
+                    <h1 className="text-3xl font-bold ">Nuevo cliente</h1>
                 </div>
 
-                <NewCustomerForm />
+                <NewCustomerForm userId={session.user.id} />
 
 
         
